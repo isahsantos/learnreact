@@ -9,7 +9,7 @@ export default props => {
       return  <tr> {produo.desc}</tr>
     })
        const produtopreco = produtos.map(produo =>{
-      return  <tr> {produo.preco}</tr>});
+      return  <tr> R$ {produo.preco}</tr>});
 return (
  <table >
   <tr>
@@ -20,7 +20,7 @@ return (
     <tr>
     <td>{produtoid}</td>
     <td>{produtodesc}</td>
-    <td>{produtopreco}</td>
+    <td> {produtopreco}</td>
   </tr>
 </table>
 )
